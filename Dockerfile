@@ -6,9 +6,9 @@ ENV NODE_VERSION 9.x
 RUN apt-get update && apt-get install -y --no-install-recommends \
                 ca-certificates \
                 wget \
-                rsync \
                 git \
                 curl \
+                rsync \
                 bzip2 \
                 gcc \
                 g++ \
